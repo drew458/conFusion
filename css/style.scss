@@ -1,3 +1,4 @@
+//variables declared
 $lt-gray: #ddd;
 $background-dark: #512DA8;
 $background-light: #9575CD;
@@ -55,7 +56,7 @@ body{
 }
 
 .carousel {
-    background:$background-dark;
+    background: $background-dark;
 
     .carousel-item {
         height: $carousel-item-height;
@@ -68,10 +69,29 @@ body{
     }
 }
 
+.modal-content {
+	border: 0px;
+
+	.modal-body {
+		background: $background-light;
+	}
+
+	.modal-header {
+		background: $background-dark;
+		color: floralwhite;
+		border: 0px;
+
+		.close {
+			color: floralwhite;
+		}
+
+	}
+
+}
+
 #carouselButton {
     right:0px;
     position: absolute;
     bottom: 0px;
     z-index: 1;
 }
-
